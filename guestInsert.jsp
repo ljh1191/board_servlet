@@ -46,7 +46,7 @@ function getData(pageNum){
 										$("#results").html(data);
 	});
 }
-
+//focus 커서이동 메서드
 function showRequest(){
 	if($("#name").val()==""){
 		alert("글쓴이를 입력해주세요.");
